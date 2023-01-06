@@ -20,6 +20,6 @@ resource "aws_security_group" "allow_docdb" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "${var.env}_allow_docdb"
   }
 }
