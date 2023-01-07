@@ -1,8 +1,5 @@
 variable "env" {}
 variable "engine" {}
-variable "engine_version" {}
-variable "database_name" {}
-
 variable "backup_retention_period" {}
 variable "preferred_backup_window" {}
 variable "skip_final_snapshot" {}
